@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <script>
+            const inputA = prompt(`첫번째 숫자를 입력하세요.`)
+            const inputB = prompt(`두번째 숫자를 입력하세요.`)
+            const inputC = prompt(`세번째 숫자를 입력하세요.`)
+
+            const num1 = Number(inputA)
+            const num2 = Number(inputB)
+            const num3 = Number(inputC)
+
+             let max;
+
+             if(num1 > num2)
+             {
+                if(num1 > num3)
+                {
+                max = num1;
+                }
+
+                else
+                {
+                 max = num3
+                }
+             }   
+             else
+             {
+                if(num2 > num3)
+                {
+                   max = num2;  
+                }
+                else
+                   max = num3;
+                         }       
+                          
+                alert (`가장 큰 수는 ${max}입니다.`)
+
+        </script>
+</head>
+<body>
+    
+</body>
+</html>
